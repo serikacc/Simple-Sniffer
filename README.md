@@ -18,10 +18,10 @@ WinPcap4.1.3
 10. Packet saving
 11. Operation interface
 ## System Design
-### Main module
+### Main Module
 The main module is used to select the adapter that needs to be monitored, display the content of the data packet in real time, set the filter,
 and for the selected data packets, the data packets can be analyzed in detail, and the number and types of data packets can be counted, and then display them.
-### Packet sending module
+### Packet Sending Module
 The packet sending module is used to send specific data packets for ARP spoofing.
 ### Packet Capture Module
 The packet capture module is used to write the captured packets that meet the requirements to a file system according to the filter settings
