@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Attack</class>
+ <widget class="QWidget" name="Attack">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>489</width>
+    <height>325</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>43</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>源ip：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sIP_1">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>44</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="sizePolicy">
+    <sizepolicy hsizetype="MinimumExpanding" vsizetype="Fixed">
+     <horstretch>0</horstretch>
+     <verstretch>0</verstretch>
+    </sizepolicy>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sIP_2">
+   <property name="geometry">
+    <rect>
+     <x>172</x>
+     <y>43</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sIP_4">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>43</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sIP_3">
+   <property name="geometry">
+    <rect>
+     <x>232</x>
+     <y>43</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>92</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>源mac：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sMAC_1">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>93</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sMAC_2">
+   <property name="geometry">
+    <rect>
+     <x>172</x>
+     <y>92</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sMAC_3">
+   <property name="geometry">
+    <rect>
+     <x>232</x>
+     <y>92</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sMAC_4">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>92</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sMAC_5">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>92</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>141</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>目的ip：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="sMAC_6">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>92</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dIP_1">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>142</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dIP_2">
+   <property name="geometry">
+    <rect>
+     <x>172</x>
+     <y>141</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dIP_4">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>141</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dIP_3">
+   <property name="geometry">
+    <rect>
+     <x>232</x>
+     <y>141</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dMAC_2">
+   <property name="geometry">
+    <rect>
+     <x>172</x>
+     <y>190</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dMAC_1">
+   <property name="geometry">
+    <rect>
+     <x>111</x>
+     <y>191</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>32</x>
+     <y>190</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>目的mac：</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dMAC_5">
+   <property name="geometry">
+    <rect>
+     <x>351</x>
+     <y>190</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dMAC_3">
+   <property name="geometry">
+    <rect>
+     <x>232</x>
+     <y>190</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dMAC_4">
+   <property name="geometry">
+    <rect>
+     <x>291</x>
+     <y>190</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>260</y>
+     <width>93</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>欺骗</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="dMAC_6">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>190</y>
+     <width>51</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
